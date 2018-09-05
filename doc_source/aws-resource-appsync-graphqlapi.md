@@ -127,7 +127,7 @@ The following example creates a GraphQL API
           "Ref": "graphQlApiName"
         },
         "AuthenticationType": "AMAZON_COGNITO_USER_POOLS",
-        UserPoolConfig": {
+        "UserPoolConfig": {
           "UserPoolId": {
             "Ref": "userPoolId"
           },
@@ -163,7 +163,7 @@ Resources:
       Name:
 	Ref: graphQlApiName
       AuthenticationType: "AMAZON_COGNITO_USER_POOLS"
-      "UserPoolConfig":
+      UserPoolConfig:
         UserPoolId:
           Ref: userPoolId
         AwsRegion:
@@ -173,4 +173,4 @@ Resources:
 ```
 
 ## See Also<a name="aws-resource-appsync-graphqlapi-seealso"></a>
-+ [ CreateGraphqlApi](http://docs.aws.amazon.com/appsync/latest/APIReference/API_CreateGraphqlApi.html) operation in the *AWS AppSync API Reference*
++ [ CreateGraphqlApi](http://docs.aws.amazon.com/appsync/latest/APIReference/API_CreateGraphqlApi.html) operation in the *AWS AppSync API Reference* 
